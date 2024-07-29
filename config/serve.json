@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://roelenlikeit.sharepoint.com/sites/Project-MyrtheDev",
+      "customActions": {
+        "2a777716-94ee-42b7-9b8f-d5980edaf8bd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://roelenlikeit.sharepoint.com/sites/Project-MyrtheDev",
+      "customActions": {
+        "2a777716-94ee-42b7-9b8f-d5980edaf8bd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}
